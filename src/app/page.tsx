@@ -17,7 +17,7 @@ export default function Home() {
               </div>
             </ScrollReveal>
             <ScrollReveal delay={100}>
-              <h1>Optimize operations.<br/>Drive efficiency now.</h1>
+              <h1>From Next Ideas to Real Outcomes.</h1>
             </ScrollReveal>
             <ScrollReveal delay={200}>
               <p>Experience the power of ServiceNow and transform the way you manage and deliver applications. Scalable, flexible infrastructure for the modern enterprise.</p>

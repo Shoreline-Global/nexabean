@@ -37,7 +37,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   <span className="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /></svg></span>
                   Nexabean
                 </Link>
-                <p>Your Next Transformation Experts. Driving efficiency through ServiceNow and cutting-edge Cloud solutions.</p>
+                <p>From Next Ideas to Real Outcomes. Driving efficiency through ServiceNow and cutting-edge Cloud solutions.</p>
               </div>
               <div className="footer-links">
                 <h4>Company</h4>

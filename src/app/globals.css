@@ -313,6 +313,7 @@ p { line-height: 1.7; }
 
 .hero p {
   font-size: 1.2rem;
+  font-weight: 500;
   color: var(--text-secondary);
   margin: 0 auto 2.5rem;
   max-width: 620px;

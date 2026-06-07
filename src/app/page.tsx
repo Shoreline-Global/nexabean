@@ -6,9 +6,13 @@ export default function Home() {
     <main>
       {/* Hero Section */}
       <section className="hero" id="home">
-        <div className="hero-orb hero-orb-1"></div>
-        <div className="hero-orb hero-orb-2"></div>
-        <div className="hero-orb hero-orb-3"></div>
+        <div className="hero-circuit-container">
+          <div className="hero-circuit-grid"></div>
+          <div className="circuit-node node-1"></div>
+          <div className="circuit-node node-2"></div>
+          <div className="circuit-node node-3"></div>
+          <div className="circuit-node node-4"></div>
+        </div>
         <div className="container">
           <div className="hero-content">
             <ScrollReveal>

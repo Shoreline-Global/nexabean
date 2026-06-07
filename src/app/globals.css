@@ -247,25 +247,6 @@ p { line-height: 1.7; }
   100% { background-position: 0 60px; }
 }
 
-.circuit-node {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background: var(--cyan-400);
-  border-radius: 50%;
-  box-shadow: 0 0 15px 3px rgba(14, 165, 233, 0.6);
-  opacity: 0.8;
-}
-.node-1 { top: 30%; left: 20%; animation: float-node 6s ease-in-out infinite alternate; }
-.node-2 { top: 60%; left: 80%; animation: float-node 8s ease-in-out infinite alternate-reverse; }
-.node-3 { top: 20%; left: 70%; animation: float-node 7s ease-in-out infinite alternate; }
-.node-4 { top: 70%; left: 30%; animation: float-node 5s ease-in-out infinite alternate-reverse; }
-
-@keyframes float-node {
-  0% { transform: translateY(0) scale(0.8); opacity: 0.4; }
-  100% { transform: translateY(-20px) scale(1.2); opacity: 1; }
-}
-
 /* Motion Graphics */
 .motion-ring {
   position: absolute;

@@ -8,10 +8,6 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="hero-circuit-container">
           <div className="hero-circuit-grid"></div>
-          <div className="circuit-node node-1"></div>
-          <div className="circuit-node node-2"></div>
-          <div className="circuit-node node-3"></div>
-          <div className="circuit-node node-4"></div>
         </div>
         <div className="container">
           <div className="hero-content">

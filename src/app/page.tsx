@@ -54,27 +54,27 @@ export default function Home() {
           </ScrollReveal>
           <div className="bento-grid">
             <ScrollReveal delay={0} className="bento-card large">
-              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2" strokeLinecap="round" strokeLinejoin="round"/></svg></div>
+              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
               <h3>Advisory Services</h3>
               <p>Unlock strategic insights and gain a competitive edge. We collaborate to align IT strategies, assess risks, and develop comprehensive plans that leverage emerging technologies.</p>
             </ScrollReveal>
             <ScrollReveal delay={100} className="bento-card">
-              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></div>
+              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8m-4-4v4" /></svg></div>
               <h3>Implementations</h3>
               <p>Flawless execution of ServiceNow solutions, ensuring reliability, performance, and enterprise-grade security.</p>
             </ScrollReveal>
             <ScrollReveal delay={200} className="bento-card">
-              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg></div>
               <h3>Managed Services</h3>
               <p>Continuous support and optimization for your infrastructure. Versatile, pragmatic, and cost-effective management.</p>
             </ScrollReveal>
             <ScrollReveal delay={100} className="bento-card">
-              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg></div>
+              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg></div>
               <h3>Cloud Space</h3>
               <p>Your Digital Creation House. Elevate performance through rigorous evaluation and scalable cloud architecture.</p>
             </ScrollReveal>
             <ScrollReveal delay={200} className="bento-card">
-              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg></div>
+              <div className="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg></div>
               <h3>App Development</h3>
               <p>Tailored applications built directly on the ServiceNow platform, accelerating workflows and bringing automation.</p>
             </ScrollReveal>

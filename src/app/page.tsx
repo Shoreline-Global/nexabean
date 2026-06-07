@@ -17,7 +17,7 @@ export default function Home() {
               </div>
             </ScrollReveal>
             <ScrollReveal delay={100}>
-              <h1>From <span style={{ color: 'var(--cyan-400)', textShadow: '0 0 10px rgba(255,255,255,0.8), 0 0 20px var(--cyan-400)' }}>Next</span> Ideas to Real <span style={{ color: 'var(--blue-300)', textShadow: '0 0 10px rgba(255,255,255,0.8), 0 0 20px var(--blue-300)' }}>Outcomes</span>.</h1>
+              <h1>From <span style={{ color: '#016ec7' }}>Next</span> Ideas to Real <span style={{ color: '#024b8a' }}>Outcomes</span>.</h1>
             </ScrollReveal>
             <ScrollReveal delay={200}>
               <p>Experience the power of ServiceNow and transform the way you manage and deliver applications. Scalable, flexible infrastructure for the modern enterprise.</p>

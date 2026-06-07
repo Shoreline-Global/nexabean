@@ -11,11 +11,7 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="hero-content">
-            <ScrollReveal>
-              <div className="hero-badge">
-                <span className="dot"></span> Enterprise Technology Consulting
-              </div>
-            </ScrollReveal>
+
             <ScrollReveal delay={100}>
               <h1>From <span style={{ color: '#016ec7' }}>Next</span> Ideas to Real <span style={{ color: '#024b8a' }}>Outcomes</span>.</h1>
             </ScrollReveal>

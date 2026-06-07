@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <nav className="navbar">
           <div className="container">
             <Link href="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <img src="/header-logo.png" alt="NexaBean" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
+              <img src="/header-logo-2.png" alt="NexaBean" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
             </Link>
             <div className="navbar-links">
               <Link href="/servicenow">ServiceNow</Link>

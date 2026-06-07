@@ -13,7 +13,7 @@ export default function Home() {
           <div className="hero-content">
             <ScrollReveal>
               <div className="hero-badge">
-                <span className="dot"></span> ServiceNow Transformation Partner
+                <span className="dot"></span> Enterprise Technology Consulting
               </div>
             </ScrollReveal>
             <ScrollReveal delay={100}>

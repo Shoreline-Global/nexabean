@@ -22,8 +22,7 @@ export default function CompanyPage() {
         <ScrollReveal delay={200}>
           <div>
             <p style={{ marginTop: '2rem' }}>
-              <strong>US Office:</strong> 418 Broadway, Albany, NY, 11305<br />
-              <strong>India Office:</strong> 225, Block-F, Sector - 16, Rohini, Delhi - 110085
+              <strong>Headquarters:</strong> 2601 Frisco Wood Dr, Fort Worth, TX 76244
             </p>
           </div>
         </ScrollReveal>

@@ -33,13 +33,12 @@ export default function ContactPage() {
             </div>
             <div>
               <div className="label">Phone</div>
-              <p style={{ marginTop: '0.5rem', fontSize: '1.125rem' }}>+1-800-219-6448</p>
+              <p style={{ marginTop: '0.5rem', fontSize: '1.125rem' }}>+1-817-600-7630</p>
             </div>
             <div>
-              <div className="label">Global Offices</div>
+              <div className="label">Office</div>
               <p style={{ marginTop: '0.5rem', fontSize: '1rem', color: 'var(--text-secondary)' }}>
-                Albany, New York (US)<br/>
-                New Delhi (India)
+                2601 Frisco Wood Dr, Fort Worth, TX 76244
               </p>
             </div>
           </div>

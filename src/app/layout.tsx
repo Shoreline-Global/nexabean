@@ -56,13 +56,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <ul>
                   <li><Link href="/contact">Contact Us</Link></li>
                   <li><a href="mailto:info@nexabean.com">info@nexabean.com</a></li>
-                  <li><a href="tel:+18002196448">+1-800-219-6448</a></li>
+                  <li><a href="tel:+18176007630">+1-817-600-7630</a></li>
                 </ul>
               </div>
             </div>
             <div className="footer-bottom">
               <p>&copy; {new Date().getFullYear()} Nexabean Inc. All rights reserved.</p>
-              <p>Albany, NY &bull; New Delhi, India</p>
+              <p>Fort Worth, TX</p>
             </div>
           </div>
         </footer>

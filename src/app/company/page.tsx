@@ -22,7 +22,7 @@ export default function CompanyPage() {
         <ScrollReveal delay={200}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             <div style={{ position: 'relative', height: '250px', width: '100%', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
-              <img src="/corporate-office.png" alt="Nexabean Corporate Office" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
+              <img src="/dashboard.png" alt="Nexabean Digital Dashboard" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
             </div>
           </div>
         </ScrollReveal>

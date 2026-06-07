@@ -62,7 +62,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </div>
             <div className="footer-bottom">
               <p>&copy; {new Date().getFullYear()} Nexabean Inc. All rights reserved.</p>
-              <p>Fort Worth, TX</p>
+              <p>Fort Worth, TX, USA</p>
             </div>
           </div>
         </footer>

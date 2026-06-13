@@ -14,14 +14,15 @@ export default function ContactPage() {
       <div className="feature-row" style={{ marginTop: '4rem', alignItems: 'flex-start' }}>
         <ScrollReveal className="bento-card large">
           <h3>Send us a message</h3>
-          <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '1.5rem' }}>
+          <form action="https://api.web3forms.com/submit" method="POST" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '1.5rem' }}>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <input type="text" placeholder="First Name" style={{ flex: 1, padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
-              <input type="text" placeholder="Last Name" style={{ flex: 1, padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
+              <input type="text" name="First Name" placeholder="First Name" required style={{ flex: 1, padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
+              <input type="text" name="Last Name" placeholder="Last Name" required style={{ flex: 1, padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
             </div>
-            <input type="email" placeholder="Work Email" style={{ padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
-            <textarea placeholder="How can we help you?" rows={5} style={{ padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', resize: 'vertical', fontFamily: 'inherit', fontSize: '0.875rem' }}></textarea>
-            <button type="button" className="btn btn-primary" style={{ alignSelf: 'flex-start' }}>Submit Message</button>
+            <input type="email" name="Email" placeholder="Work Email" required style={{ padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', fontFamily: 'inherit', fontSize: '0.875rem' }} />
+            <textarea name="Message" placeholder="How can we help you?" rows={5} required style={{ padding: '0.75rem', borderRadius: '4px', border: '1px solid var(--border-color)', outline: 'none', resize: 'vertical', fontFamily: 'inherit', fontSize: '0.875rem' }}></textarea>
+            <button type="submit" className="btn btn-primary" style={{ alignSelf: 'flex-start' }}>Submit Message</button>
           </form>
         </ScrollReveal>
         
